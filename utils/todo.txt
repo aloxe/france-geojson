@@ -1,0 +1,23 @@
+récupérer les fichiers csv de l'INSEE
+https://www.insee.fr/fr/information/2560452
+Événements sur les communes csv
+
+convertir en fichier json http://www.convertcsv.com/csv-to-json.htm
+
+installer jq https://stedolan.github.io/jq/
+
+loop sur le fichier par communes
+
+extraire les communes modifiées du département
+
+regrouper les polygones
+
+installer https://www.npmjs.com/package/mapshaper
+
+fusionner les polygones
+
+renommer la commune, supprimer les communes associées
+
+- cas des communes changeant de département
+
+regarder cette API : https://api.gouv.fr/les-api/api-geo
